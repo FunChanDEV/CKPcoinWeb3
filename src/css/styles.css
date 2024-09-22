@@ -308,6 +308,13 @@ body.dark-mode .transaction-type {
     color: #aaa; /* Светлый цвет текста для типа транзакции */
 }
 
-main {
-    margin-bottom: 60px; /* Убедитесь, что основной контент не перекрывается футером */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e3a8a;
+    padding: 10px 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
+
